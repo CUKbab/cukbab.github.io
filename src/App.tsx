@@ -90,6 +90,13 @@ const detectSystemArch = async (): Promise<'arm64' | 'x64' | null> => {
 
 const CUK_WEB_URL = 'https://cukbab.github.io/CUK_Web';
 
+const prefetchWeb = () => {
+  const link = document.createElement('link');
+  link.rel = 'prefetch';
+  link.href = CUK_WEB_URL;
+  document.head.appendChild(link);
+};
+
 function App() {
   const [language, setLanguage] = useState<Language>(() => {
     const saved = localStorage.getItem('app_language');
@@ -216,6 +223,7 @@ function App() {
           <a
             href={CUK_WEB_URL}
             className="web-card"
+            onMouseEnter={prefetchWeb}
           >
             <div className="web-card-left">
               <div className="web-card-icon-wrap">

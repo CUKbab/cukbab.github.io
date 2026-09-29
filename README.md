@@ -1,42 +1,42 @@
-# CUK밥 포털 (cukbab.github.io)
+# CUK밥 Portal (cukbab.github.io)
 
-가톨릭대학교 비공식 학식 안내 서비스 **CUK밥**의 공식 센트럴 포털 웹페이지입니다.  
-웹 버전 바로가기 및 Android, Windows, macOS, Linux 등 모든 플랫폼 클라이언트 다운로드를 제공합니다.
+This is the official central portal page for **CUK밥**, an unofficial meal information service for Catholic University of Korea.  
+It provides direct access to the web version and download links for all platform clients: Android, Windows, macOS, and Linux.
 
-## 제공 기능
+## Features
 
-- **웹 버전 바로가기**: 별도 설치 없이 브라우저에서 바로 학식 메뉴 확인 ([CUK_Web](https://cukbab.github.io/CUK_Web))
-- **클라이언트 다운로드**:
-  - **Android**: Google Play 스토어 앱
-  - **Windows**: Windows 64-bit 실행 파일
-  - **macOS**: Apple Silicon (arm64) 및 Intel (x64) DMG 패키지 (아키텍처 자동 감지 및 권장 표시)
-  - **Linux**: Linux x64 tar.gz 패키지
-- **운영체제 자동 감지**: 접속한 기기의 OS를 자동 판별하여 최적의 다운로드를 상단에 권장(Recommended)으로 추천
-- **다국어 지원**: 한국어(KO), English(EN), 日本語(JA), 中文(ZH) 지원
+- **Web Version Access**: Check meal menus instantly in your browser without installation ([CUK_Web](https://cukbab.github.io/CUK_Web))
+- **Client Downloads**:
+  - **Android**: Google Play Store app
+  - **Windows**: Windows 64-bit executable
+  - **macOS**: Apple Silicon (arm64) and Intel (x64) DMG packages (auto-detects architecture and highlights recommended option)
+  - **Linux**: Linux x64 tar.gz package
+- **Auto OS Detection**: Automatically detects the visitor's operating system and recommends the optimal download at the top
+- **Multi-language Support**: Korean (KO), English (EN), Japanese (JA), Chinese (ZH)
 
-## 개발 및 빌드
+## Development & Build
 
 ```bash
-# 의존성 설치
+# Install dependencies
 npm install
 
-# 로컬 개발 서버 실행
+# Run local development server
 npm run dev
 
-# 프로덕션 빌드
+# Production build
 npm run build
 
-# 빌드 결과 미리보기
+# Preview build output
 npm run preview
 ```
 
-## 관련 저장소
+## Related Repositories
 
-- [CUK_Web](https://github.com/CUKbab/CUK_Web) - 웹 애플리케이션
-- [CUK_PC](https://github.com/CUKbab/CUK_PC) - 데스크톱(PC) 클라이언트
-- [CUK_Android](https://github.com/CUKbab/CUK_Android) - Android 애플리케이션
-- [CUK_Menu](https://github.com/CUKbab/CUK_Menu) - 학식 데이터 파서 및 API
+- [CUK_Web](https://github.com/CUKbab/CUK_Web) - Web application
+- [CUK_PC](https://github.com/CUKbab/CUK_PC) - Desktop (PC) client
+- [CUK_Android](https://github.com/CUKbab/CUK_Android) - Android application
+- [CUK_Menu](https://github.com/CUKbab/CUK_Menu) - Meal data parser & API
 
-## 라이선스
+## License
 
 MIT License
